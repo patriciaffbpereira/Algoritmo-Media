@@ -1,11 +1,11 @@
 Algoritmo "MEDIA"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 06/05/2024
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 N1:real
 N2:real
 N3:real
@@ -13,7 +13,7 @@ N4:real
 Media:real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 escreval("Digite a primeira nota: ")
 leia(N1)
 escreval("Digite a segunda nota: ")
@@ -24,6 +24,11 @@ escreval("Digite a quarta nota: ")
 leia(N4)
 
 Media:=(N1+N2+N3+N4)/4
+
+se(Media >=7) entao
+escreval('Alunos Aprovado')
+senao
+escreval('Aluno Reprovado')
 
 escreval("Media: ",Media)
 
